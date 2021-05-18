@@ -1,12 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <title>Demo</title>
+  <meta charset="utf-8">
+  <script src="jquery-3.6.0.min.js"></script>
+  <script>
+    $( document ).ready(function() {
+       $(':lang("en")').css('font-style', 'italic');
+    });
+  </script>
 </head>
 <body>
-    
+    <h1>jQuery</h1>
+  <p id= "p1" class= "primeiro">Testes com jQuery</p>
+  <p id = "p2">Faremos os seguintes:</p>
+  <ul>
+      <li class="primeiro">Testes com seletores</li>
+      <li>Testes de alteração de conteúdo</li>
+      <li lang="en">CSS manipulation tests</li>
+      <li>Testes de criação de comportamento</li>
+  </ul>
 </body>
 </html>
